@@ -1,0 +1,13 @@
+hyperparameters:
+  epochs: 100
+  batch_size: 16
+  margin: 1
+
+dataset:
+  base_path: "folder_path"
+  version: "version_no/"
+  roi_folder_name: "roi"
+  num_roi: 5
+  landmarks:
+    - "dorsal"
+    - "wrist"
